@@ -1,0 +1,201 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: span 2;
+    background-color: #ffffff;
+    max-width: 600px;
+    border: 1px solid black;
+    border-radius: 32px;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bubble-1{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 350px;
+    line-height: 1.5;
+}
+
+.testimoni, .recommend{
+    color: white;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.name{
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.role{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.card-2{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.bubble-2{
+    margin-bottom: 40px;
+}
+
+
+.container-2{
+    display: flex;
+
+}
+
+.profile-picture img{
+    width: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.container-2{
+    grid-column: span 2; /* Membuat elemen membentang 2 kolom penuh */
+    margin-top: 10px;
+}
+
+.bubble-3{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.stars{
+    color: yellow;
+    font-size: 24px;
+}
+
+.name-3{
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.role-3{
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+}
+
+.testimoni-3{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.container-3{
+    grid-column: span 2; 
+    margin-top: 10px;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+.description{
+    text-align: center;
+}
+
+.carousel-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+    padding: 10px;
+}
+
+.nav-btn:hover {
+    color: black;
+}
+
+.carousel-images {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.carousel-images img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.side-img {
+    width: 45px;
+    height: 45px;
+    opacity: 0.4; 
+    transition: opacity 0.3s ease;
+}
+
+
+.main-img {
+    width: 65px;
+    height: 65px;
+    border: 2px solid transparent; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.carousel-name {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0;
+}
